@@ -43,4 +43,13 @@ public interface Constants {
     String MESSAGE_BODY_XPATH = "//div[@data-test-id='message-view-body-content']/div/div/div";
     String DELETE_XPATH = "//button[@data-test-id='toolbar-delete']";
 
+    // google picture
+    String TEXT_ON_PAGE = "Картинки";
+    String BUTTON_PICTURES = "//a[contains(text(),'Картинки')]";
+    String ACCEPT_EVERYTHING = "L2AGLb";
+    String SEARCH = "//input[@title='Поиск']";
+    String WORD_INPUT = "nature";
+    String IMG ="img";
+
+
 }
